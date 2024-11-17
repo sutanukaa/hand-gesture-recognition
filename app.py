@@ -11,9 +11,9 @@ import cv2 as cv
 import numpy as np
 import mediapipe as mp
 
-from utils import CvFpsCalc
-from model import KeyPointClassifier
-from model import PointHistoryClassifier
+from utils.cvfpscalc import CvFpsCalc
+from model.keypoint_classifier import KeyPointClassifier
+from model.point_history_classifier import PointHistoryClassifier
 
 
 def get_args():
